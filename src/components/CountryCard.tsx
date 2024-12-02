@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Country } from '../types';
 import { MapPin, Mountain, Globe2, Map, Building2 } from 'lucide-react';
 

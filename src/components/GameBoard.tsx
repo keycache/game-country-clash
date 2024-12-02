@@ -40,7 +40,7 @@ export const GameBoard = ({ countries, onGameComplete }: GameBoardProps) => {
   };
 
   useEffect(() => {
-    const timeouts: NodeJS.Timeout[] = [];
+    const timeouts: any[] = [];
     
     temporarilyVisible.forEach(cardId => {
       const timeout = setTimeout(() => {
