@@ -51,7 +51,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between h-16">
               <div className="flex space-x-4 items-center">
-                <Link to="/" className="font-bold text-xl">
+                <Link to="/game-country-clash" className="font-bold text-xl">
                   Country Cards
                 </Link>
                 <Link to="/history" className="text-gray-600 hover:text-gray-900">
@@ -65,7 +65,7 @@ function App() {
         <main className="max-w-7xl mx-auto py-6">
           <Routes>
             <Route 
-              path="/" 
+              path="/game-country-clash" 
               element={
                 <GameBoard 
                   countries={countries} 
